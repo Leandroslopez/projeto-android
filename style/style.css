@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #c5ebd6;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: auto ;
+    width: 100%;
+    height: 160px;
+    background-image: linear-gradient(180deg,#38c979, #1a5c37);
+}
+
+header > h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.459);
+
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.459);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.459);;
+}
+
+h1{
+    font-family: idroid,Arial, Helvetica, sans-serif;
+    color: #1a5c37;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.h2{
+    font-family: idroid,Arial, Helvetica, sans-serif;
+    padding: 5px;
+    color: #1a5c37;
+    background-image: linear-gradient(90deg,#9af7c2, white );
+}
+
+#bugdroid{
+    text-align: center;
+    margin: auto;
+}
+
+#videoandroid{
+    text-align: center;
+    background-color: #1a5c37;
+}
+
+h3{
+    background-color: #2dbb6b;
+    padding: 5px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 10px;
+    
+}
+
+#extra{
+    background-color: #b5f5d0;
+    border-radius: 5px;
+    border-top: 10px;
+}
+
+#tab1{
+    display: inline-block;
+    margin-right: 100px;
+    list-style-image: url(../imagens/check-mark-p.png);
+    
+}
+
+#tab2{
+    display: inline-block;
+    list-style-image: url(../imagens/check-mark-p.png);
+    
+}
+
+#extra > p{
+    padding: 5px;
+}
+
+footer{
+    background-color: #1a5c37;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 10px;
+}
